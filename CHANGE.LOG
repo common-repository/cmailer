@@ -1,0 +1,82 @@
+########################################################################################
+#
+# CommentMailer
+# (c) 1997 - 2008 by Sebastian Schwaner
+#
+# FILE: cmailer.php
+# VERSION: 0.1.5.2
+#
+# DESC: CommentMailer informs weblog's readers of incoming comments to their subscribed
+# postings
+#
+# FROM: smallit, http://www.smallit.de
+# AUTHOR: Sebastian Schwaner
+# HOMEPAGE: http://quietschbunt.wordpress.com/commentmailer
+#
+########################################################################################
+#
+# © Copyright 2008  Sebastian Schwaner
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+########################################################################################
+
+CHANGE.LOG
+
+Nov 04th, 2008:
+     + Version 0.1.5.2 released
+     + verification request only for unknown email addresses
+
+Oct 29th, 2008:
+     + Version 0.1.5.1 released
+     + fixed: Author's Name-Bug
+     + fixed: Comment-Text-Bug
+
+Oct 20th, 2008:
+     + Version 0.1.5 released
+     + Output of errors with ID for reporting
+     + Pre-checking of the runtime in the plugin's backend
+     + extended e-mail with comment author's name, content and date of comment
+     + new links included: link to posting, link to posting's new comment
+
+Oct 18th, 2008:
+     + Version 0.1.4 - 0.1.4.x released
+     + German version
+     + Enhanced security
+     + fixing readme.txt for the repository in 0.1.4.1
+     + fixing email header injection in 0.1.4.2
+
+May 14th, 2008:
+     + Version 0.1.3 released
+     + setup your eMail settings
+     + see the verify status of subscribers (ok|wait)
+
+May 13th, 2008:
+     + Version 0.1.2.1 released
+     + some problems with data table fixed
+
+May 13th, 2008:
+     + Version 0.1.2 released
+     + simplify the function call
+     + double opt-in procedure
+     + version 0.1.1 is now deprecated
+
+Apr 17th, 2008:
+   + Version 0.1.1 released
+   + fixed: different setup/install descriptions in cmailer.php and website
+   + fixed for Wordpress 2.5
+   + paged output of all subcribers
+   + single unsubscribings of users
+   + unsubscribing all users
+   + optimizing table
+
+Feb 8th, 2008:
+   + Version 0.1.0 released
